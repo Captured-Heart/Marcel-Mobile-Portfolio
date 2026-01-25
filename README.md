@@ -224,9 +224,8 @@ To revolutionize transportation in Nigeria by creating a ride-hailing platform t
 
 #
 
-# 4. GovDrive
-
-Welcome to Gov drive, where MDA’s can safeguard all their important documents and files securely. Say goodbye to the worry of losing physical documents and enjoy the convenience of accessing your files from anywhere, anytime.
+# 4. GovDrive <a href='https://play.google.com/store/apps/details?id=ng.com.galaxybackbone.drive'><img alt='Download on the Play Store' src='./assets/google_play.png' height='23px' align="center"/></a> 
+GovDrive is a secure and user-friendly document management solution designed for government ministries, departments, and agencies. It streamlines the storage, tracking, sharing, and collaboration of official documents, improving efficiency and productivity across public sector operations.
 
 ## (Intro-Video)
 
@@ -350,7 +349,7 @@ https://github.com/user-attachments/assets/ffbe90d8-951f-40c9-a622-776e3f658a7b
 
 #
 
-# 6. AssetWize
+# 6. AssetWize <a href='https://play.google.com/store/apps/details?id=com.assetwize.app'><img alt='Download on the Play Store' src='./assets/google_play.png' height='23px' align="center"/></a> <a href='https://apps.apple.com/us/app/assetwize/id6740449088'><img alt='Download on the App Store' src='./assets/app_store.png' height='23px' align="center"/></a>
 
 This secure file management app focuses on protecting sensitive user information, such as insurance documents, land titles, jewelry receipts, and other valuable assets, by encrypting and storing them securely on the user's phone. Additionally, the app offers an optional backup feature to sync the files with the user’s cloud or drive for extra security and accessibility.
 
