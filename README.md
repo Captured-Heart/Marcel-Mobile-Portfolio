@@ -10,7 +10,7 @@ Hello and welcome! 👋🏾💜, I'm thrilled to have you here. This GitHub repo
 
 #
 
-# 1. ArewaCare
+# 1. ArewaCare <a href='https://play.google.com/store/apps/details?id=com.arewa.arewa_pregnancy_app'><img alt='Download on the Play Store' src='./assets/google_play.png' height='23px' align="center"/></a> <a href='https://apps.apple.com/ar/app/arewacare/id6745699860'><img alt='Download on the App Store' src='./assets/app_store.png' height='23px' align="center"/></a>
 
 AREWA Care helps women who are pregnant, trying to conceive, or seeking reliable pregnancy knowledge. Track symptoms and cycles, document how you feel, and stay informed with trusted insights in your preferred language
 
@@ -79,7 +79,7 @@ AREWA Care helps women who are pregnant, trying to conceive, or seeking reliable
 
 #
 
-# 2. Verido
+# 2. Verido <a href='https://play.google.com/store/apps/details?id=app.verido.app'><img alt='Download on the Play Store' src='./assets/google_play.png' height='23px' align="center"/></a> <a href='https://apps.apple.com/ar/app/verido/id1598637042'><img alt='Download on the App Store' src='./assets/app_store.png' height='23px' align="center"/></a>
 
 Verido is a smart pricing and inventory management tool that automatically calculates profitable selling prices, tracks complete product costs to prevent losses, monitors discounts to protect profit margins, and identifies best-selling items to help businesses focus on their most profitable products and services.
 
@@ -224,7 +224,7 @@ To revolutionize transportation in Nigeria by creating a ride-hailing platform t
 
 #
 
-# 2. GovDrive
+# 4. GovDrive
 
 Welcome to Gov drive, where MDA’s can safeguard all their important documents and files securely. Say goodbye to the worry of losing physical documents and enjoy the convenience of accessing your files from anywhere, anytime.
 
@@ -280,7 +280,7 @@ Welcome to Gov drive, where MDA’s can safeguard all their important documents 
 
 #
 
-# 3. Eye-Dr <a href='https://play.google.com/store/apps/details?id=com.capturedHeart.eyeDr'><img alt='Download on the Play Store' src='./assets/google_play.png' height='23px' align="center"/></a>
+# 5. Eye-Dr <a href='https://play.google.com/store/apps/details?id=com.capturedHeart.eyeDr'><img alt='Download on the Play Store' src='./assets/google_play.png' height='23px' align="center"/></a>
 
 EYE-DR is a groundbreaking mobile application designed to enhance the screening and management of diabetic retinopathy (DR). Tailored for healthcare professionals and individuals with diabetes, EYE-DR leverages advanced technology to provide a seamless, efficient, and accurate solution for retinal imaging and DR detection.
 
@@ -350,7 +350,7 @@ https://github.com/user-attachments/assets/ffbe90d8-951f-40c9-a622-776e3f658a7b
 
 #
 
-# 4. AssetWize
+# 6. AssetWize
 
 This secure file management app focuses on protecting sensitive user information, such as insurance documents, land titles, jewelry receipts, and other valuable assets, by encrypting and storing them securely on the user's phone. Additionally, the app offers an optional backup feature to sync the files with the user’s cloud or drive for extra security and accessibility.
 
@@ -412,7 +412,7 @@ This secure file management app focuses on protecting sensitive user information
 
 #
 
-# 5. Kochure <a href='https://play.google.com/store/apps/details?id=com.kochure.kochureApp'><img alt='Download on the Play Store' src='./assets/google_play.png' height='23px' align="center"/></a> <a href='https://apps.apple.com/us/app/kochure-buy-and-sell-crypto/id1595574962'><img alt='Download on the App Store' src='./assets/app_store.png' height='23px' align="center"/></a>
+# 7. Kochure <a href='https://play.google.com/store/apps/details?id=com.kochure.kochureApp'><img alt='Download on the Play Store' src='./assets/google_play.png' height='23px' align="center"/></a> <a href='https://apps.apple.com/us/app/kochure-buy-and-sell-crypto/id1595574962'><img alt='Download on the App Store' src='./assets/app_store.png' height='23px' align="center"/></a>
 
 Easily convert your cryptocurrencies to cash in Nigeria at the lowest fees. Pay the lowest transaction fee of 1.99% on every transaction and begin your crypto journey with as little as N500.
 
@@ -482,7 +482,7 @@ https://github.com/user-attachments/assets/e85cf921-20df-4fb3-98a3-9e96f8987566
 
 #
 
-# 6. Connect-Me <a href='https://apps.apple.com/ng/app/connect-me-digital-identity/id6478838388'><img alt='Download on the App Store' src='./assets/app_store.png' height='23px'/></a> <a href='https://play.google.com/store/apps/details?id=com.capturedHeart.connectMe'><img alt='Get it on Google Play' src='./assets/google_play.png' height='23px'/></a>
+# 8. Connect-Me <a href='https://apps.apple.com/ng/app/connect-me-digital-identity/id6478838388'><img alt='Download on the App Store' src='./assets/app_store.png' height='23px'/></a> <a href='https://play.google.com/store/apps/details?id=com.capturedHeart.connectMe'><img alt='Get it on Google Play' src='./assets/google_play.png' height='23px'/></a>
 
 <strong> Connect_Me is a user-friendly mobile application that empowers users to streamline their communication, networking, and information-sharing processes with the power of QR codes. Whether you're a professional seeking to exchange business details, a social media enthusiast connecting with new friends, or a tech-savvy individual looking for a convenient way to share information, Connect_Me is the ultimate solution for all your QR code needs. </strong>
 
@@ -564,7 +564,7 @@ https://github.com/Captured-Heart/connect_me/assets/69226443/63c2abe0-4c5f-4151-
 
 #
 
-# 7. Hometown <a href='https://play.google.com/store/apps/details?id=com.hometown.app'><img alt='Download hometown on the Play Store' src='./assets/google_play.png' height='23px' align="center"/></a> <a href='https://apps.apple.com/ng/app/hometown-banking-solution/id1525335534'><img alt='Download hometown on the App Store' src='./assets/app_store.png' height='23px' align="center"/></a>
+# 9. Hometown <a href='https://play.google.com/store/apps/details?id=com.hometown.app'><img alt='Download hometown on the Play Store' src='./assets/google_play.png' height='23px' align="center"/></a> <a href='https://apps.apple.com/ng/app/hometown-banking-solution/id1525335534'><img alt='Download hometown on the App Store' src='./assets/app_store.png' height='23px' align="center"/></a>
 
 Hometown is not just an app; it's your passport to financial bliss. Embrace banking freedom. Manage your finances from the comfort of your home, office, or while you're on the move - 24/7 accessibility guaranteed.
 
