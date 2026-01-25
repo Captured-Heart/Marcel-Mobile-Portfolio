@@ -89,6 +89,10 @@ Verido is a smart pricing and inventory management tool that automatically calcu
 
 ## (Intro-Video)
 
+
+https://github.com/user-attachments/assets/28947147-2df7-4c7a-90ee-4b716554ff53
+
+
 ## Making sure your business is profitable through smart management tools.
 
 <div style="text-align: center">
