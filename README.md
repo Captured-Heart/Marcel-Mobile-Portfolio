@@ -224,7 +224,8 @@ To revolutionize transportation in Nigeria by creating a ride-hailing platform t
 
 #
 
-# 4. GovDrive <a href='https://play.google.com/store/apps/details?id=ng.com.galaxybackbone.drive'><img alt='Download on the Play Store' src='./assets/google_play.png' height='23px' align="center"/></a> 
+# 4. GovDrive <a href='https://play.google.com/store/apps/details?id=ng.com.galaxybackbone.drive'><img alt='Download on the Play Store' src='./assets/google_play.png' height='23px' align="center"/></a>
+
 GovDrive is a secure and user-friendly document management solution designed for government ministries, departments, and agencies. It streamlines the storage, tracking, sharing, and collaboration of official documents, improving efficiency and productivity across public sector operations.
 
 ## (Intro-Video)
@@ -616,6 +617,56 @@ https://github.com/user-attachments/assets/4e570419-3292-40a0-b6a7-a01e754ff043
 5.  Book Your Next Flight
 
         - Flying to any destination now begins from home. Book your next local or international flight easily and at the best price with the Hometown.
+
+#
+
+<h1 align="center">📝 BLOG POSTS</h1>
+
+<p align="center">Sharing knowledge and insights from my Flutter development journey</p>
+
+<br/>
+
+## Featured Articles
+
+### 1. 🌍 Flutter meets Igbo: Integrate Igbo and Other Native Languages into Flutter Apps
+
+A comprehensive step-by-step guide on implementing native language support in Flutter applications using the `easy_localization` package. Learn how to make your apps accessible to diverse linguistic audiences.
+
+**[Read the full article →](https://capturedheart.hashnode.dev/flutter-meets-igbo)**
+
+<br/>
+
+### 2. 🗺️ Enhance Your Google Maps with Dynamic Themes Using Riverpod
+
+Discover how to implement dynamic theming for Google Maps in your Flutter applications using Riverpod state management. Create seamless light and dark mode transitions for better user experience.
+
+**[Read the full article →](https://capturedheart.hashnode.dev/enhance-your-google-maps-with-dynamic-themes-using-riverpod)**
+
+<br/>
+
+#
+
+<h1 align="center">🔌 FLUTTER PLUGINS</h1>
+
+<p align="center">Open-source contributions to the Flutter ecosystem</p>
+
+<br/>
+
+## Published Packages
+
+### 1. 🗺️ map_themes
+
+A Flutter plugin that provides easy-to-use map theming capabilities for Google Maps and other map implementations. Transform your maps with beautiful predefined themes or create custom styling with minimal code.
+
+**Key Features:**
+- 🎨 Pre-built theme collections (dark, light, custom)
+- ⚡ Simple API for quick implementation
+- 🔧 Highly customizable styling options
+- 📱 Cross-platform support (iOS & Android)
+
+**[View on pub.dev →](https://pub.dev/packages/map_themes)**
+
+<br/>
 
 #
 
