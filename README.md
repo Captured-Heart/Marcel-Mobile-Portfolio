@@ -16,6 +16,10 @@ AREWA Care helps women who are pregnant, trying to conceive, or seeking reliable
 
 ## (Intro-Video)
 
+
+https://github.com/user-attachments/assets/92b52b57-9efb-4156-8da4-a80e79704df5
+
+
 ## Transforming healthcare management with innovative solutions
 
 <div style="text-align: center">
