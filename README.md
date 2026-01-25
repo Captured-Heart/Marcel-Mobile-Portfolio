@@ -10,7 +10,144 @@ Hello and welcome! 👋🏾💜, I'm thrilled to have you here. This GitHub repo
 
 #
 
-# 1. Soloride
+# 1. ArewaCare
+
+AREWA Care helps women who are pregnant, trying to conceive, or seeking reliable pregnancy knowledge. Track symptoms and cycles, document how you feel, and stay informed with trusted insights in your preferred language
+
+## (Intro-Video)
+
+## Transforming healthcare management with innovative solutions
+
+<div style="text-align: center">
+  <table>
+    <tr>
+      <td style="text-align: center">
+        <img src="assets/arewa_health/home_screen.png" width="600" />
+      </td>
+      <td style="text-align: center">
+        <img src="assets/arewa_health/guide_screen.png" width="600" />
+      </td>
+      <td style="text-align: center">
+        <img src="assets/arewa_health/Ipd_screen.png" width="600" />
+      </td>
+       <td style="text-align: center">
+        <img src="assets/arewa_health/Pregnancy_screen.png" width="600" />
+      </td>
+    </tr> 
+  </table>
+</div>
+
+## Key Features
+
+1.  Menstrual Cycle Tracking:
+
+        - Comprehensive tracking system that monitors menstrual cycles with calendar visualization, allowing users to log symptoms, flow intensity, and related health data for accurate pattern recognition.
+
+2.  Predictive Health Insights:
+
+        - Advanced algorithms provide personalized predictions for fertile windows and ovulation periods, empowering users with accurate timing for conception planning and reproductive health awareness.
+
+3.  Pregnancy Tools & Monitoring:
+
+        - Complete pregnancy companion featuring week-by-week development tracking, symptom logging, appointment reminders, and essential pregnancy information to support users throughout their journey.
+
+4.  Detailed Health Logs & Analytics:
+
+        - In-depth health documentation system with visual analytics and trends, enabling users to track patterns, generate reports, and gain valuable insights into their reproductive and overall health.
+
+5.  Multi-Language Support:
+
+        - Accessible interface supporting multiple languages to serve a diverse user base, ensuring that women from different linguistic backgrounds can access vital health information in their preferred language.
+
+6.  Clean Architecture & Optimized Performance:
+
+        - Built with clean architecture principles and Riverpod state management for scalability, reliability, and smooth performance with micro-animations that enhance user experience and engagement.
+
+## Tools
+
+- Flutter/Dart 💙
+- Firebase (firestore, storage, authentication) 🔥
+- Clean Architecture 🏛️
+- Riverpod for State Management 🚀
+- Local Notifications 📬
+- Multi-language Support (i18n) 🌍
+- Shared Preferences 💾
+- Custom Animations 🎨
+- Optimized for iOS and Android 📱
+- FHIR: Fast HealthCare Interoperabilityb resources
+  <br/>
+
+#
+
+# 2. Verido
+
+Verido is a smart pricing and inventory management tool that automatically calculates profitable selling prices, tracks complete product costs to prevent losses, monitors discounts to protect profit margins, and identifies best-selling items to help businesses focus on their most profitable products and services.
+
+## (Intro-Video)
+
+## Making sure your business is profitable through smart management tools.
+
+<div style="text-align: center">
+  <table>
+    <tr>
+      <td style="text-align: center">
+        <img src="assets/verido/market_place.png" width="600" />
+      </td>
+      <td style="text-align: center">
+        <img src="assets/verido/operations_page.png" width="600" />
+      </td>
+      <td style="text-align: center">
+        <img src="assets/verido/vendor_list.png" width="600" />
+      </td>
+       <td style="text-align: center">
+        <img src="assets/verido/admin_home.png" width="600" />
+      </td>
+    </tr> 
+  </table>
+</div>
+
+## Key Features
+
+1.  Offline-First Architecture:
+
+        - Implemented a robust offline-first approach that prioritizes local data operations, ensuring the app remains fully functional without internet connectivity and seamlessly syncs when online.
+
+2.  Local Data Caching with Hive:
+
+        - Integrated Hive database for efficient local storage, enabling lightning-fast data retrieval, reduced network dependency, and persistent offline functionality for uninterrupted user experience.
+
+3.  Manual Data Synchronization:
+
+        - Developed a reliable synchronization system that manages data flow between local storage and remote database, ensuring data consistency and integrity across devices while minimizing conflicts.
+
+4.  Clean Architecture Refactoring:
+
+        - Restructured the entire codebase following clean architecture principles, resulting in clear separation of concerns, improved code modularity, enhanced maintainability, and better scalability for future growth.
+
+5.  Optimized Performance:
+
+        - Achieved significant performance improvements through efficient data caching, reduced network calls, and streamlined data access patterns, delivering faster load times and smoother user interactions.
+
+6.  App Store Deployment & Management:
+
+        - Responsible for the complete deployment pipeline including building production-ready apps, signing with appropriate certificates, and publishing to both Apple App Store and Google Play Store.
+
+## Tools
+
+- Flutter/Dart 💙
+- Hive (Local Database) 📦
+- REST API & Remote Database 🌐
+- Clean Architecture 🏛️
+- Riverpod & Provider for State Management 🚀
+- Offline-First Sync Strategy 🔄
+- Shared Preferences 💾
+- Local data with HIVE
+- App Store Deployment (iOS & Android) 🚀📱
+- Optimized for iOS and Android 📱 <br/>
+
+#
+
+# 3. Soloride
 
 <!-- <a href='https://play.google.com/store/apps/details?id=com.capturedHeart.eyeDr'><img alt='Download on the Play Store' src='./assets/google_play.png' height='23px' align="center"/></a> -->
 
@@ -212,6 +349,7 @@ https://github.com/user-attachments/assets/ffbe90d8-951f-40c9-a622-776e3f658a7b
 <br/>
 
 #
+
 # 4. AssetWize
 
 This secure file management app focuses on protecting sensitive user information, such as insurance documents, land titles, jewelry receipts, and other valuable assets, by encrypting and storing them securely on the user's phone. Additionally, the app offers an optional backup feature to sync the files with the user’s cloud or drive for extra security and accessibility.

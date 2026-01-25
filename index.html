@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Marcel Mobile Portfolio • README Landing Page</title>
+  <meta name="description" content="Clean landing page that renders your GitHub README.md with nice typography, dark mode, and share cards." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>📱</text></svg>">
+  <!-- Open Graph / Twitter -->
+  <meta property="og:title" content="Marcel Mobile Portfolio" />
+  <meta property="og:description" content="Landing page powered by the GitHub README.md" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://captured-heart.github.io/Marcel-Mobile-Portfolio/" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Tailwind via CDN (for a simple single-file page) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#eef9ff', 100: '#d7efff', 200: '#b0e0ff', 300: '#7ecbff',
+              400: '#49b0ff', 500: '#1f94ff', 600: '#0a76e8', 700: '#075cb6',
+              800: '#074d91', 900: '#0a3f73'
+            }
+          }
+        }
+      },
+      darkMode: 'class'
+    }
+  </script>
+
+  <!-- Marked (Markdown → HTML) & highlight.js (code highlighting) -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/styles/github-dark.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/lib/common.min.js"></script>
+
+  <style>
+    /* Prose tweaks */
+    .prose img { border-radius: 0.75rem; }
+    .prose pre { border-radius: 0.75rem; }
+    .prose code { font-weight: 500; }
+  </style>
+</head>
+<body class="bg-white text-slate-900 dark:bg-slate-950 dark:text-slate-100 transition-colors">
+  <!-- Top Bar -->
+  <header class="sticky top-0 z-40 backdrop-blur supports-[backdrop-filter]:bg-white/60 dark:supports-[backdrop-filter]:bg-slate-950/60 border-b border-slate-200/60 dark:border-slate-800">
+    <div class="mx-auto max-w-5xl px-4 py-3 flex items-center gap-3">
+      <div class="w-9 h-9 grid place-items-center rounded-2xl bg-brand-100 dark:bg-brand-900 text-brand-700 dark:text-brand-200">📱</div>
+      <div class="font-semibold tracking-tight" id="site-title">Marcel Mobile Portfolio</div>
+      <div class="ms-auto flex items-center gap-2">
+        <a id="github-link" href="https://github.com/Captured-Heart/Marcel-Mobile-Portfolio" target="_blank" rel="noopener" class="inline-flex items-center gap-2 rounded-xl border border-slate-300/70 dark:border-slate-700 px-3 py-1.5 text-sm hover:bg-slate-50 dark:hover:bg-slate-900">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-4"><path d="M12 .5a12 12 0 0 0-3.79 23.4c.6.11.82-.26.82-.58v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.55-1.41-1.34-1.79-1.34-1.79-1.09-.74.08-.73.08-.73 1.2.09 1.83 1.23 1.83 1.23 1.07 1.84 2.8 1.31 3.49 1 .11-.78.42-1.31.76-1.61-2.67-.3-5.48-1.34-5.48-5.96 0-1.32.47-2.4 1.24-3.24-.12-.3-.54-1.5.12-3.12 0 0 1.01-.32 3.3 1.23a11.4 11.4 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.66 1.62.24 2.82.12 3.12.78.85 1.24 1.92 1.24 3.24 0 4.63-2.81 5.66-5.49 5.96.43.37.81 1.1.81 2.22v3.29c0 .32.22.69.83.58A12 12 0 0 0 12 .5z"/></svg>
+          GitHub
+        </a>
+        <button id="toggle-theme" class="rounded-xl border border-slate-300/70 dark:border-slate-700 px-3 py-1.5 text-sm hover:bg-slate-50 dark:hover:bg-slate-900" title="Toggle dark mode">🌗</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="mx-auto max-w-5xl px-4 py-10 sm:py-14">
+    <div class="grid gap-6 sm:grid-cols-2 items-center">
+      <div>
+        <h1 class="text-3xl sm:text-5xl font-extrabold tracking-tight leading-tight">Building delightful mobile experiences.</h1>
+        <p class="mt-4 text-slate-600 dark:text-slate-300">This page renders directly from your repository's <code>README.md</code> so you can maintain content in one place and ship a beautiful landing page.
+        </p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="#readme" class="inline-flex items-center rounded-2xl bg-brand-600 hover:bg-brand-700 text-white px-5 py-2.5">Read the README</a>
+          <a href="#projects" class="inline-flex items-center rounded-2xl border border-slate-300/70 dark:border-slate-700 px-5 py-2.5">Quick Projects</a>
+        </div>
+      </div>
+      <div class="relative">
+        <div class="aspect-[4/3] rounded-3xl bg-gradient-to-br from-brand-200 to-brand-500/40 dark:from-brand-900/40 dark:to-brand-600/30 shadow-xl"></div>
+        <div class="absolute inset-3 rounded-2xl border border-white/40 dark:border-white/10 pointer-events-none"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- README Content -->
+  <main id="readme" class="mx-auto max-w-4xl px-4 pb-20">
+    <article id="readme-article" class="prose prose-slate dark:prose-invert max-w-none">
+      <h2>Loading README…</h2>
+      <p class="text-slate-500">If this takes more than a moment, GitHub may be rate limiting. Try refreshing.</p>
+    </article>
+  </main>
+
+  <!-- Quick Projects (optional static section you can edit) -->
+  <section id="projects" class="mx-auto max-w-5xl px-4 pb-20">
+    <h2 class="text-2xl font-bold mb-4">Featured Projects</h2>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      <!-- Cards: replace links/titles as you like -->
+      <a class="rounded-2xl border border-slate-200 dark:border-slate-800 p-5 hover:shadow-lg transition" href="https://github.com/Captured-Heart/Marcel-Mobile-Portfolio" target="_blank" rel="noopener">
+        <div class="text-sm text-slate-500">GitHub</div>
+        <div class="font-semibold mt-1">Marcel Mobile Portfolio</div>
+        <p class="text-sm mt-2 text-slate-600 dark:text-slate-300">Main repository powering this landing page.</p>
+      </a>
+      <a class="rounded-2xl border border-slate-200 dark:border-slate-800 p-5 hover:shadow-lg transition" href="#" target="_blank" rel="noopener">
+        <div class="text-sm text-slate-500">Flutter</div>
+        <div class="font-semibold mt-1">Awesome App</div>
+        <p class="text-sm mt-2 text-slate-600 dark:text-slate-300">Replace with another cool project.</p>
+      </a>
+      <a class="rounded-2xl border border-slate-200 dark:border-slate-800 p-5 hover:shadow-lg transition" href="#" target="_blank" rel="noopener">
+        <div class="text-sm text-slate-500">Open Source</div>
+        <div class="font-semibold mt-1">Package / Plugin</div>
+        <p class="text-sm mt-2 text-slate-600 dark:text-slate-300">Showcase any packages you ship.</p>
+      </a>
+    </div>
+  </section>
+
+  <footer class="border-t border-slate-200/60 dark:border-slate-800 py-8">
+    <div class="mx-auto max-w-5xl px-4 text-sm flex flex-wrap items-center gap-3 justify-between">
+      <div>© <span id="year"></span> Marcel • Built with README ❤️</div>
+      <div class="flex items-center gap-3">
+        <button id="print-btn" class="rounded-xl border border-slate-300/70 dark:border-slate-700 px-3 py-1.5 hover:bg-slate-50 dark:hover:bg-slate-900">Export as PDF</button>
+        <a class="rounded-xl border border-slate-300/70 dark:border-slate-700 px-3 py-1.5 hover:bg-slate-50 dark:hover:bg-slate-900" href="#readme">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // ---- Dark mode toggle ----
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
+    const stored = localStorage.getItem('theme')
+    if ((stored === 'dark') || (!stored && prefersDark)) {
+      document.documentElement.classList.add('dark')
+    }
+    document.getElementById('toggle-theme').addEventListener('click', () => {
+      document.documentElement.classList.toggle('dark')
+      localStorage.setItem('theme', document.documentElement.classList.contains('dark') ? 'dark' : 'light')
+    })
+
+    // ---- Fetch README from GitHub (tries main then master) ----
+    const owner = 'Captured-Heart'
+    const repo = 'Marcel-Mobile-Portfolio'
+    const readmeUrls = [
+      `https://raw.githubusercontent.com/${owner}/${repo}/refs/heads/main/README.md`,
+      `https://raw.githubusercontent.com/${owner}/${repo}/main/README.md`,
+      `https://raw.githubusercontent.com/${owner}/${repo}/master/README.md`
+    ]
+
+    async function fetchReadme() {
+      for (const url of readmeUrls) {
+        try {
+          const res = await fetch(url, { cache: 'no-store' })
+          if (res.ok) {
+            return await res.text()
+          }
+        } catch (e) { /* try next */ }
+      }
+      throw new Error('README.md not found on main or master')
+    }
+
+    // ---- Render README into the page ----
+    const article = document.getElementById('readme-article')
+    marked.setOptions({
+      breaks: true,
+      headerIds: true,
+      mangle: false,
+      highlight: (code, lang) => {
+        try { return hljs.highlight(code, { language: lang }).value } catch (_) {}
+        try { return hljs.highlightAuto(code).value } catch (_) {}
+        return code
+      }
+    })
+
+    function postProcess() {
+      // open external links in new tab
+      article.querySelectorAll('a[href^="http"]').forEach(a => {
+        a.target = '_blank'; a.rel = 'noopener'
+      })
+      // if README has an H1, use it as page title and site title
+      const h1 = article.querySelector('h1')
+      if (h1) {
+        document.title = h1.textContent + ' • Marcel Mobile Portfolio'
+        document.getElementById('site-title').textContent = h1.textContent
+      }
+      // add anchor offsets for sticky header
+      article.querySelectorAll('h2, h3').forEach(h => {
+        h.classList.add('scroll-mt-24')
+      })
+    }
+
+    fetchReadme()
+      .then(md => { article.innerHTML = marked.parse(md); postProcess() })
+      .catch(err => {
+        article.innerHTML = `
+          <h2 class="text-red-600">Couldn't load README.md</h2>
+          <p class="text-slate-600 dark:text-slate-300">${err.message}</p>
+          <p>Make sure the repository is public and contains a <code>README.md</code> on <code>main</code> or <code>master</code>.</p>
+        `
+      })
+
+    // Footer year & print
+    document.getElementById('year').textContent = new Date().getFullYear()
+    document.getElementById('print-btn').addEventListener('click', () => window.print())
+
+    // Update GitHub link
+    document.getElementById('github-link').href = `https://github.com/${owner}/${repo}`
+  </script>
+</body>
+</html>
