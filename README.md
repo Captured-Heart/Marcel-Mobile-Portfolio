@@ -10,7 +10,144 @@ Hello and welcome! 👋🏾💜, I'm thrilled to have you here. This GitHub repo
 
 #
 
-# 1. Soloride
+# 1. ArewaCare <a href='https://play.google.com/store/apps/details?id=com.arewa.arewa_pregnancy_app'><img alt='Download on the Play Store' src='./assets/google_play.png' height='23px' align="center"/></a> <a href='https://apps.apple.com/ar/app/arewacare/id6745699860'><img alt='Download on the App Store' src='./assets/app_store.png' height='23px' align="center"/></a>
+
+AREWA Care helps women who are pregnant, trying to conceive, or seeking reliable pregnancy knowledge. Track symptoms and cycles, document how you feel, and stay informed with trusted insights in your preferred language
+
+## (Intro-Video)
+
+## Transforming healthcare management with innovative solutions
+
+<div style="text-align: center">
+  <table>
+    <tr>
+      <td style="text-align: center">
+        <img src="assets/arewa_health/home_screen.png" width="600" />
+      </td>
+      <td style="text-align: center">
+        <img src="assets/arewa_health/guide_screen.png" width="600" />
+      </td>
+      <td style="text-align: center">
+        <img src="assets/arewa_health/Ipd_screen.png" width="600" />
+      </td>
+       <td style="text-align: center">
+        <img src="assets/arewa_health/Pregnancy_screen.png" width="600" />
+      </td>
+    </tr> 
+  </table>
+</div>
+
+## Key Features
+
+1.  Menstrual Cycle Tracking:
+
+        - Comprehensive tracking system that monitors menstrual cycles with calendar visualization, allowing users to log symptoms, flow intensity, and related health data for accurate pattern recognition.
+
+2.  Predictive Health Insights:
+
+        - Advanced algorithms provide personalized predictions for fertile windows and ovulation periods, empowering users with accurate timing for conception planning and reproductive health awareness.
+
+3.  Pregnancy Tools & Monitoring:
+
+        - Complete pregnancy companion featuring week-by-week development tracking, symptom logging, appointment reminders, and essential pregnancy information to support users throughout their journey.
+
+4.  Detailed Health Logs & Analytics:
+
+        - In-depth health documentation system with visual analytics and trends, enabling users to track patterns, generate reports, and gain valuable insights into their reproductive and overall health.
+
+5.  Multi-Language Support:
+
+        - Accessible interface supporting multiple languages to serve a diverse user base, ensuring that women from different linguistic backgrounds can access vital health information in their preferred language.
+
+6.  Clean Architecture & Optimized Performance:
+
+        - Built with clean architecture principles and Riverpod state management for scalability, reliability, and smooth performance with micro-animations that enhance user experience and engagement.
+
+## Tools
+
+- Flutter/Dart 💙
+- Firebase (firestore, storage, authentication) 🔥
+- Clean Architecture 🏛️
+- Riverpod for State Management 🚀
+- Local Notifications 📬
+- Multi-language Support (i18n) 🌍
+- Shared Preferences 💾
+- Custom Animations 🎨
+- Optimized for iOS and Android 📱
+- FHIR: Fast HealthCare Interoperabilityb resources
+  <br/>
+
+#
+
+# 2. Verido <a href='https://play.google.com/store/apps/details?id=app.verido.app'><img alt='Download on the Play Store' src='./assets/google_play.png' height='23px' align="center"/></a> <a href='https://apps.apple.com/ar/app/verido/id1598637042'><img alt='Download on the App Store' src='./assets/app_store.png' height='23px' align="center"/></a>
+
+Verido is a smart pricing and inventory management tool that automatically calculates profitable selling prices, tracks complete product costs to prevent losses, monitors discounts to protect profit margins, and identifies best-selling items to help businesses focus on their most profitable products and services.
+
+## (Intro-Video)
+
+## Making sure your business is profitable through smart management tools.
+
+<div style="text-align: center">
+  <table>
+    <tr>
+      <td style="text-align: center">
+        <img src="assets/verido/market_place.png" width="600" />
+      </td>
+      <td style="text-align: center">
+        <img src="assets/verido/operations_page.png" width="600" />
+      </td>
+      <td style="text-align: center">
+        <img src="assets/verido/vendor_list.png" width="600" />
+      </td>
+       <td style="text-align: center">
+        <img src="assets/verido/admin_home.png" width="600" />
+      </td>
+    </tr> 
+  </table>
+</div>
+
+## Key Features
+
+1.  Offline-First Architecture:
+
+        - Implemented a robust offline-first approach that prioritizes local data operations, ensuring the app remains fully functional without internet connectivity and seamlessly syncs when online.
+
+2.  Local Data Caching with Hive:
+
+        - Integrated Hive database for efficient local storage, enabling lightning-fast data retrieval, reduced network dependency, and persistent offline functionality for uninterrupted user experience.
+
+3.  Manual Data Synchronization:
+
+        - Developed a reliable synchronization system that manages data flow between local storage and remote database, ensuring data consistency and integrity across devices while minimizing conflicts.
+
+4.  Clean Architecture Refactoring:
+
+        - Restructured the entire codebase following clean architecture principles, resulting in clear separation of concerns, improved code modularity, enhanced maintainability, and better scalability for future growth.
+
+5.  Optimized Performance:
+
+        - Achieved significant performance improvements through efficient data caching, reduced network calls, and streamlined data access patterns, delivering faster load times and smoother user interactions.
+
+6.  App Store Deployment & Management:
+
+        - Responsible for the complete deployment pipeline including building production-ready apps, signing with appropriate certificates, and publishing to both Apple App Store and Google Play Store.
+
+## Tools
+
+- Flutter/Dart 💙
+- Hive (Local Database) 📦
+- REST API & Remote Database 🌐
+- Clean Architecture 🏛️
+- Riverpod & Provider for State Management 🚀
+- Offline-First Sync Strategy 🔄
+- Shared Preferences 💾
+- Local data with HIVE
+- App Store Deployment (iOS & Android) 🚀📱
+- Optimized for iOS and Android 📱 <br/>
+
+#
+
+# 3. Soloride
 
 <!-- <a href='https://play.google.com/store/apps/details?id=com.capturedHeart.eyeDr'><img alt='Download on the Play Store' src='./assets/google_play.png' height='23px' align="center"/></a> -->
 
@@ -91,9 +228,9 @@ https://github.com/user-attachments/assets/903c83b2-7155-464c-bdf7-7db3bbc19280
 
 #
 
-# 2. GovDrive
+# 4. GovDrive <a href='https://play.google.com/store/apps/details?id=ng.com.galaxybackbone.drive'><img alt='Download on the Play Store' src='./assets/google_play.png' height='23px' align="center"/></a>
 
-Welcome to Gov Drive, where MDAs can safeguard all their important documents and files securely. Say goodbye to the worry of losing physical documents and enjoy the convenience of accessing your files from anywhere, anytime.
+GovDrive is a secure and user-friendly document management solution designed for government ministries, departments, and agencies. It streamlines the storage, tracking, sharing, and collaboration of official documents, improving efficiency and productivity across public sector operations.
 
 ## (Intro-Video)
 
@@ -151,7 +288,7 @@ https://github.com/user-attachments/assets/f7d5ef43-9d92-447d-9ee1-a3fa5d1aca97
 
 #
 
-# 3. Eye-Dr <a href='https://play.google.com/store/apps/details?id=com.capturedHeart.eyeDr'><img alt='Download on the Play Store' src='./assets/google_play.png' height='23px' align="center"/></a>
+# 5. Eye-Dr <a href='https://play.google.com/store/apps/details?id=com.capturedHeart.eyeDr'><img alt='Download on the Play Store' src='./assets/google_play.png' height='23px' align="center"/></a>
 
 EYE-DR is a groundbreaking mobile application designed to enhance the screening and management of diabetic retinopathy (DR). Tailored for healthcare professionals and individuals with diabetes, EYE-DR leverages advanced technology to provide a seamless, efficient, and accurate solution for retinal imaging and DR detection.
 
@@ -220,7 +357,8 @@ https://github.com/user-attachments/assets/ffbe90d8-951f-40c9-a622-776e3f658a7b
 <br/>
 
 #
-# 4. AssetWize
+
+# 6. AssetWize <a href='https://play.google.com/store/apps/details?id=com.assetwize.app'><img alt='Download on the Play Store' src='./assets/google_play.png' height='23px' align="center"/></a> <a href='https://apps.apple.com/us/app/assetwize/id6740449088'><img alt='Download on the App Store' src='./assets/app_store.png' height='23px' align="center"/></a>
 
 This secure file management app focuses on protecting sensitive user information, such as insurance documents, land titles, jewelry receipts, and other valuable assets, by encrypting and storing them securely on the user's phone. Additionally, the app offers an optional backup feature to sync the files with the user’s cloud or drive for extra security and accessibility.
 
@@ -286,7 +424,7 @@ https://github.com/user-attachments/assets/44548d57-05be-4267-b905-693c2e276b72
 
 #
 
-# 5. Kochure <a href='https://play.google.com/store/apps/details?id=com.kochure.kochureApp'><img alt='Download on the Play Store' src='./assets/google_play.png' height='23px' align="center"/></a> <a href='https://apps.apple.com/us/app/kochure-buy-and-sell-crypto/id1595574962'><img alt='Download on the App Store' src='./assets/app_store.png' height='23px' align="center"/></a>
+# 7. Kochure <a href='https://play.google.com/store/apps/details?id=com.kochure.kochureApp'><img alt='Download on the Play Store' src='./assets/google_play.png' height='23px' align="center"/></a> <a href='https://apps.apple.com/us/app/kochure-buy-and-sell-crypto/id1595574962'><img alt='Download on the App Store' src='./assets/app_store.png' height='23px' align="center"/></a>
 
 Easily convert your cryptocurrencies to cash in Nigeria at the lowest fees. Pay the lowest transaction fee of 1.99% on every transaction and begin your crypto journey with as little as N500.
 
@@ -356,7 +494,7 @@ https://github.com/user-attachments/assets/e85cf921-20df-4fb3-98a3-9e96f8987566
 
 #
 
-# 6. Connect-Me <a href='https://apps.apple.com/ng/app/connect-me-digital-identity/id6478838388'><img alt='Download on the App Store' src='./assets/app_store.png' height='23px'/></a> <a href='https://play.google.com/store/apps/details?id=com.capturedHeart.connectMe'><img alt='Get it on Google Play' src='./assets/google_play.png' height='23px'/></a>
+# 8. Connect-Me <a href='https://apps.apple.com/ng/app/connect-me-digital-identity/id6478838388'><img alt='Download on the App Store' src='./assets/app_store.png' height='23px'/></a> <a href='https://play.google.com/store/apps/details?id=com.capturedHeart.connectMe'><img alt='Get it on Google Play' src='./assets/google_play.png' height='23px'/></a>
 
 <strong> Connect_Me is a user-friendly mobile application that empowers users to streamline their communication, networking, and information-sharing processes with the power of QR codes. Whether you're a professional seeking to exchange business details, a social media enthusiast connecting with new friends, or a tech-savvy individual looking for a convenient way to share information, Connect_Me is the ultimate solution for all your QR code needs. </strong>
 
@@ -438,7 +576,7 @@ https://github.com/Captured-Heart/connect_me/assets/69226443/63c2abe0-4c5f-4151-
 
 #
 
-# 7. Hometown <a href='https://play.google.com/store/apps/details?id=com.hometown.app'><img alt='Download hometown on the Play Store' src='./assets/google_play.png' height='23px' align="center"/></a> <a href='https://apps.apple.com/ng/app/hometown-banking-solution/id1525335534'><img alt='Download hometown on the App Store' src='./assets/app_store.png' height='23px' align="center"/></a>
+# 9. Hometown <a href='https://play.google.com/store/apps/details?id=com.hometown.app'><img alt='Download hometown on the Play Store' src='./assets/google_play.png' height='23px' align="center"/></a> <a href='https://apps.apple.com/ng/app/hometown-banking-solution/id1525335534'><img alt='Download hometown on the App Store' src='./assets/app_store.png' height='23px' align="center"/></a>
 
 Hometown is not just an app; it's your passport to financial bliss. Embrace banking freedom. Manage your finances from the comfort of your home, office, or while you're on the move - 24/7 accessibility guaranteed.
 
@@ -491,6 +629,56 @@ https://github.com/user-attachments/assets/4e570419-3292-40a0-b6a7-a01e754ff043
 5.  Book Your Next Flight
 
         - Flying to any destination now begins from home. Book your next local or international flight easily and at the best price with the Hometown.
+
+#
+
+<h1 align="center">📝 BLOG POSTS</h1>
+
+<p align="center">Sharing knowledge and insights from my Flutter development journey</p>
+
+<br/>
+
+## Featured Articles
+
+### 1. 🌍 Flutter meets Igbo: Integrate Igbo and Other Native Languages into Flutter Apps
+
+A comprehensive step-by-step guide on implementing native language support in Flutter applications using the `easy_localization` package. Learn how to make your apps accessible to diverse linguistic audiences.
+
+**[Read the full article →](https://capturedheart.hashnode.dev/flutter-meets-igbo)**
+
+<br/>
+
+### 2. 🗺️ Enhance Your Google Maps with Dynamic Themes Using Riverpod
+
+Discover how to implement dynamic theming for Google Maps in your Flutter applications using Riverpod state management. Create seamless light and dark mode transitions for better user experience.
+
+**[Read the full article →](https://capturedheart.hashnode.dev/enhance-your-google-maps-with-dynamic-themes-using-riverpod)**
+
+<br/>
+
+#
+
+<h1 align="center">🔌 FLUTTER PLUGINS</h1>
+
+<p align="center">Open-source contributions to the Flutter ecosystem</p>
+
+<br/>
+
+## Published Packages
+
+### 1. 🗺️ map_themes
+
+A Flutter plugin that provides easy-to-use map theming capabilities for Google Maps and other map implementations. Transform your maps with beautiful predefined themes or create custom styling with minimal code.
+
+**Key Features:**
+- 🎨 Pre-built theme collections (dark, light, custom)
+- ⚡ Simple API for quick implementation
+- 🔧 Highly customizable styling options
+- 📱 Cross-platform support (iOS & Android)
+
+**[View on pub.dev →](https://pub.dev/packages/map_themes)**
+
+<br/>
 
 #
 
