@@ -96,6 +96,26 @@ Rideflow Riders is the driver side of the Rideflow logistics platform. Independe
   <table>
     <tr>
       <td style="text-align: center">
+        <img src="assets/rideflow_rider/rideflow_rider_demo.gif" width="250" />
+        <br/><sub>Demo (<a href="assets/rideflow_rider/rideflow_rider_demo.mp4">MP4</a>)</sub>
+      </td>
+      <td style="text-align: center">
+        <img src="assets/rideflow_rider/rider_home.png" width="250" />
+        <br/><sub>Online dashboard</sub>
+      </td>
+      <td style="text-align: center">
+        <img src="assets/rideflow_rider/rider_streak_sheet.png" width="250" />
+        <br/><sub>Streak nudge on going offline</sub>
+      </td>
+      <td style="text-align: center">
+        <img src="assets/rideflow_rider/rider_streak.png" width="250" />
+        <br/><sub>Streaks & rewards</sub>
+      </td>
+    </tr>
+  </table>
+  <table>
+    <tr>
+      <td style="text-align: center">
         <img src="assets/rideflow_rider/rider_1.png" width="600" />
       </td>
       <td style="text-align: center">
@@ -130,7 +150,7 @@ Rideflow Riders is the driver side of the Rideflow logistics platform. Independe
 
 4.  Wallet, Earnings & Streaks:
 
-        - Riders track completed deliveries, earnings and wallet balance, and stay motivated with delivery streaks.
+        - Riders track completed deliveries, earnings and wallet balance, and stay motivated with streaks: daily online-time goals and weekly ride targets that unlock cash rewards, with a nudge when they try to go offline early.
 
 5.  In-App Support:
 
@@ -236,7 +256,7 @@ Kamux Phone is a cross-platform business softphone built in Flutter for a German
 
 #
 
-# 4. Captured Clean <!-- STORE_BUTTONS -->
+# 4. Captured Clean
 
 Captured Clean is my own storage cleaner for Mac and iPhone. On the Mac it shows where your disk space went, finds caches, developer build data and old installers that are safe to remove, uninstalls apps with their leftovers, and monitors CPU and memory from the menu bar. On iPhone it finds duplicate photos, similar shots, large videos and big files. Nothing is deleted until you review it, and everything is scanned on the device.
 
