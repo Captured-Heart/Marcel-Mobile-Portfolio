@@ -4,13 +4,421 @@
   <img alt="Nkpozi_Marcel_cover" src="assets/github_cover.png" />
 </p>
 
-Hello and welcome! 👋🏾💜, I'm thrilled to have you here. This GitHub repository showcases my journey as a Flutter developer, featuring a curated collection of my projects, contributions, and learning experiences. As a Flutter Developer, having worked on projects varying from Fintechs 💵, Health⚕️, e-Commerce 🚚, AI 🤖, and Religion ✝️ etc, am currently seeking remote or relocation opportunities. Feel free to browse through my projects, check out the code, and see what I've been working on. If you have any questions, or suggestions, or just want to say hi, don't hesitate to reach out ☎️ 📞!
+Hello and welcome! 👋🏾💜, I'm thrilled to have you here. This GitHub repository showcases my journey as a Flutter developer, featuring a curated collection of my projects, contributions, and learning experiences. As a Flutter Developer, having worked on projects varying from Fintechs 💵, Health⚕️, Logistics 🛵, e-Commerce 🚚, VoIP 📞, AI 🤖, and Religion ✝️ etc, am currently seeking remote or relocation opportunities. Feel free to browse through my projects, check out the code, and see what I've been working on. If you have any questions, or suggestions, or just want to say hi, don't hesitate to reach out ☎️ 📞!
 
 <br/>
 
 #
 
-# 1. ArewaCare <a href='https://play.google.com/store/apps/details?id=com.arewa.arewa_pregnancy_app'><img alt='Download on the Play Store' src='./assets/google_play.png' height='23px' align="center"/></a> <a href='https://apps.apple.com/ar/app/arewacare/id6745699860'><img alt='Download on the App Store' src='./assets/app_store.png' height='23px' align="center"/></a>
+# 1. Rideflow Hubs <a href='https://play.google.com/store/apps/details?id=org.rideflow.hubs'><img alt='Download on the Play Store' src='./assets/google_play.png' height='23px' align="center"/></a> <a href='https://apps.apple.com/us/app/rideflow-hubs/id6794044854'><img alt='Download on the App Store' src='./assets/app_store.png' height='23px' align="center"/></a>
+
+Rideflow Hubs is the customer and vendor app of the Rideflow logistics platform in Nigeria. Customers send packages across the city by picking a route, comparing independent riders with logistics companies, and tracking the delivery live, while vendors manage their inventory and incoming orders from the same app.
+
+## (Demo)
+
+<p align="left">
+  <img src="assets/rideflow_hubs/rideflow_hubs_demo.gif" width="300" alt="Rideflow Hubs demo" />
+</p>
+
+[▶️ Watch the demo video (MP4)](assets/rideflow_hubs/rideflow_hubs_demo.mp4)
+
+## Send anything, anywhere in the city, and watch it arrive.
+
+<div style="text-align: center">
+  <table>
+    <tr>
+      <td style="text-align: center">
+        <img src="assets/rideflow_hubs/hubs_home.png" width="600" />
+      </td>
+      <td style="text-align: center">
+        <img src="assets/rideflow_hubs/hubs_route.png" width="600" />
+      </td>
+      <td style="text-align: center">
+        <img src="assets/rideflow_hubs/hubs_explore.png" width="600" />
+      </td>
+       <td style="text-align: center">
+        <img src="assets/rideflow_hubs/hubs_orders.png" width="600" />
+      </td>
+    </tr>
+  </table>
+</div>
+
+## Key Features
+
+1.  Live Map & Route Pricing:
+
+        - Google Maps home screen showing nearby bikes, buses and trucks in real time. Customers pick a pickup and drop-off, see the route polyline, and get an estimated fee they can adjust before requesting a rider.
+
+2.  Independent Riders or Logistics Companies:
+
+        - Customers choose between an independent rider and a verified logistics company, and can browse providers by category (bikes, buses, trucks, movers) with ratings, fleet size, average fee and average delivery time.
+
+3.  Live Order Tracking (Live Activities & Live Updates):
+
+        - Delivery progress on the iOS Lock Screen and Dynamic Island through a custom Live Activity plugin, and as an ongoing progress notification on Android, driven by server-sent events and push. Only a short order reference, status and ETA reach the lock screen, never personal details.
+
+4.  Vendor Mode & Inventory:
+
+        - Vendors get their own home screen to manage inventory and incoming delivery orders alongside the customer experience.
+
+5.  In-App Chat, Rewards & Notifications:
+
+        - Customers chat inside the app, earn a free delivery through the "5 + 1 Delivery Reward" programme, and get push notifications for every order update.
+
+6.  Secure Sign-in & OTA Updates:
+
+        - Google and Apple sign-in, deep links, Crashlytics and Analytics, and over-the-air patches with Shorebird.
+
+## Tools
+
+- Flutter/Dart 💙
+- Google Maps (polylines, markers, real-time) 🗺️📍
+- Riverpod for State Management 🚀
+- REST API with Dio 🌐
+- Server-Sent Events & Firebase Cloud Messaging 🔔
+- iOS Live Activities / Android Live Updates (custom plugin) 🏝️
+- Hive (Local Database) 📦
+- Firebase (Crashlytics, Analytics, Messaging) 🔥
+- Google & Apple Sign-In 🔐
+- Shorebird (over-the-air updates) 🐦
+- Optimized for iOS and Android 📱
+  <br/>
+
+#
+
+# 2. Rideflow Riders <a href='https://play.google.com/store/apps/details?id=org.rideflow'><img alt='Download on the Play Store' src='./assets/google_play.png' height='23px' align="center"/></a> <a href='https://apps.apple.com/us/app/rideflow-riders/id6759728442'><img alt='Download on the App Store' src='./assets/app_store.png' height='23px' align="center"/></a>
+
+Rideflow Riders is the driver side of the Rideflow logistics platform. Independent riders and riders working for logistics companies go online, accept or decline delivery requests, navigate to pickup and drop-off, and get paid, all with real-time updates between the rider, the customer and the dispatcher.
+
+## Earn more on every delivery with faster order assignments.
+
+<div style="text-align: center">
+  <table>
+    <tr>
+      <td style="text-align: center">
+        <img src="assets/rideflow_rider/rider_1.png" width="600" />
+      </td>
+      <td style="text-align: center">
+        <img src="assets/rideflow_rider/rider_2.png" width="600" />
+      </td>
+      <td style="text-align: center">
+        <img src="assets/rideflow_rider/rider_3.png" width="600" />
+      </td>
+      <td style="text-align: center">
+        <img src="assets/rideflow_rider/rider_4.png" width="600" />
+      </td>
+      <td style="text-align: center">
+        <img src="assets/rideflow_rider/rider_5.png" width="600" />
+      </td>
+    </tr>
+  </table>
+</div>
+
+## Key Features
+
+1.  Real-Time Order Assignment:
+
+        - Riders go online or offline with one switch and receive new delivery requests instantly over WebSockets (Socket.IO), with sound alerts, so they can accept or decline before the request moves on.
+
+2.  Live Delivery Tracking:
+
+        - Location updates with Geolocator stream the rider's position to the customer, and Google Maps guides the rider from pickup to drop-off with one-tap calls to the vendor and the customer.
+
+3.  Independent Riders & Company Fleets:
+
+        - Separate onboarding and home screens for independent riders and for riders managed by a logistics company, including dispatch from the company and document (KYC) verification.
+
+4.  Wallet, Earnings & Streaks:
+
+        - Riders track completed deliveries, earnings and wallet balance, and stay motivated with delivery streaks.
+
+5.  In-App Support:
+
+        - Live chat support with Tawk.to and push notifications for every status change.
+
+6.  Code Quality at Scale:
+
+        - Built a custom lint plugin that enforces the team's conventions in the IDE, git hooks that format and check code before push, and a required CI "Code Quality" check on every pull request.
+
+## Tools
+
+- Flutter/Dart 💙
+- Riverpod for State Management 🚀
+- GoRouter for Navigation 🧭
+- Socket.IO (WebSockets) 🔌
+- Google Maps & Geolocator 🗺️📍
+- Firebase (Messaging, Crashlytics, Analytics) 🔥
+- Local Notifications & Audio Alerts 🔔
+- Custom Lint Rules & GitHub Actions CI ✅
+- Shorebird (over-the-air updates) 🐦
+- Optimized for iOS and Android 📱
+  <br/>
+
+#
+
+# 3. Kamux Phone
+
+Kamux Phone is a cross-platform business softphone built in Flutter for a German company moving its phone system to MikoPBX. Agents answer and make calls from their phone or desktop, see which colleagues are free in real time, and work from a shared history of every call that came into the central queue, so no missed caller is forgotten.
+
+## (Demo)
+
+<p align="left">
+  <img src="assets/kamux_phone/kamux_phone_demo.gif" width="300" alt="Kamux Phone demo" />
+</p>
+
+[▶️ Watch the demo video (MP4)](assets/kamux_phone/kamux_phone_demo.mp4)
+
+## Every call in the queue, every colleague's status, one app.
+
+<div style="text-align: center">
+  <table>
+    <tr>
+      <td style="text-align: center">
+        <img src="assets/kamux_phone/kamux_queue.png" width="600" />
+      </td>
+      <td style="text-align: center">
+        <img src="assets/kamux_phone/kamux_team.png" width="600" />
+      </td>
+      <td style="text-align: center">
+        <img src="assets/kamux_phone/kamux_call.png" width="600" />
+      </td>
+      <td style="text-align: center">
+        <img src="assets/kamux_phone/kamux_keypad.png" width="600" />
+      </td>
+      <td style="text-align: center">
+        <img src="assets/kamux_phone/kamux_menu.png" width="600" />
+      </td>
+    </tr>
+  </table>
+</div>
+
+## Key Features
+
+1.  Central Queue History:
+
+        - A shared history of every call into the company's queue, with the caller's number and city, who answered it and for how long, and missed calls marked in red until someone calls back. Callers waiting right now can be picked up with one tap, and the list filters by All, Missed, Answered or Mine.
+
+2.  Live Team Presence:
+
+        - Every extension shows whether the colleague is available, ringing, on a call (with a live timer), on do-not-disturb or offline, and can be called with one tap.
+
+3.  Full SIP Calling with Linphone:
+
+        - Outgoing and incoming calls, mute, hold, speaker, DTMF keypad and call transfer, powered by the Linphone SDK through a custom Flutter plugin (Swift for iOS and macOS, Kotlin for Android).
+
+4.  Native Incoming Calls on iPhone:
+
+        - CallKit integration and a Flexisip push gateway, so calls ring on the lock screen like a normal phone call even when the app is closed.
+
+5.  Nextcloud Contacts & Chat:
+
+        - Contacts are synced from the company's Nextcloud address book over CardDAV, and the menu links straight to Nextcloud Talk for team chat.
+
+6.  One Codebase for Mobile and Desktop:
+
+        - Runs on iOS, Android, macOS and Linux, in English and German, with SIP credentials and PBX tokens kept in the OS keychain.
+
+## Tools
+
+- Flutter/Dart 💙
+- Linphone SDK (SIP / VoIP) via a custom platform plugin 📞
+- Swift (iOS & macOS) and Kotlin (Android) 🧩
+- CallKit & Flexisip push gateway 🔔
+- MikoPBX REST API with Dio 🌐
+- CardDAV (Nextcloud) contacts 📇
+- Riverpod for State Management 🚀
+- GoRouter for Navigation 🧭
+- Flutter Secure Storage 🔐
+- Localization (en & de) 🌍
+- GitHub Actions (Linux packages, push gateway deploy) ⚙️
+- Optimized for iOS, Android & Desktop 📱💻
+  <br/>
+
+#
+
+# 4. Captured Clean <!-- STORE_BUTTONS -->
+
+Captured Clean is my own storage cleaner for Mac and iPhone. On the Mac it shows where your disk space went, finds caches, developer build data and old installers that are safe to remove, uninstalls apps with their leftovers, and monitors CPU and memory from the menu bar. On iPhone it finds duplicate photos, similar shots, large videos and big files. Nothing is deleted until you review it, and everything is scanned on the device.
+
+🌐 [capturedclean.com](https://capturedclean.com) · 💻 [Download for Mac](https://download.capturedclean.com/Captured-Clean-1.1.dmg)
+
+## (Demo)
+
+<p align="left">
+  <img src="assets/captured_clean/captured_clean_iphone_demo.gif" width="300" alt="Captured Clean iPhone demo" />
+</p>
+
+[▶️ Watch the iPhone demo (MP4)](assets/captured_clean/captured_clean_iphone_demo.mp4) · [▶️ Watch the Mac demo (MP4)](assets/captured_clean/captured_clean_mac_demo.mp4)
+
+## A little breathing room for your iPhone and Mac.
+
+<div style="text-align: center">
+  <table>
+    <tr>
+      <td style="text-align: center">
+        <img src="assets/captured_clean/cc_overview.jpg" width="600" />
+      </td>
+      <td style="text-align: center">
+        <img src="assets/captured_clean/cc_duplicates.jpg" width="600" />
+      </td>
+      <td style="text-align: center">
+        <img src="assets/captured_clean/cc_similar.jpg" width="600" />
+      </td>
+      <td style="text-align: center">
+        <img src="assets/captured_clean/cc_files.jpg" width="600" />
+      </td>
+      <td style="text-align: center">
+        <img src="assets/captured_clean/cc_widgets.jpg" width="600" />
+      </td>
+      <td style="text-align: center">
+        <img src="assets/captured_clean/cc_settings.jpg" width="600" />
+      </td>
+    </tr>
+  </table>
+  <table>
+    <tr>
+      <td style="text-align: center">
+        <img src="assets/captured_clean/cc_mac_overview.jpg" width="600" />
+      </td>
+      <td style="text-align: center">
+        <img src="assets/captured_clean/cc_mac_cleanup.jpg" width="600" />
+      </td>
+      <td style="text-align: center">
+        <img src="assets/captured_clean/cc_mac_activity.jpg" width="600" />
+      </td>
+    </tr>
+  </table>
+</div>
+
+## Key Features
+
+1.  Photo Cleanup on iPhone:
+
+        - Finds exact duplicate photos and near-identical shots, keeps the best one of each group, and lists screenshots and large videos biggest first. Deleted photos go to Recently Deleted for 30 days.
+
+2.  Where the Space Went (Mac):
+
+        - A size-aware file explorer that scans folders in parallel and sorts everything largest first, with on-disk sizes that match Finder, hard links counted once and symbolic-link loops handled safely.
+
+3.  Safe Cleanup Suggestions:
+
+        - Application caches and logs, Xcode build data and simulator caches, npm, Gradle, Cargo, Go, pnpm, Bun and Flutter caches, and old installers in Downloads. Nothing is selected automatically, and items go to the Trash only after you review them.
+
+4.  App Uninstaller & Activity Monitor:
+
+        - Removes an app together with its caches, preferences and other leftovers, and shows live CPU and memory per app with Quit and Force Quit.
+
+5.  Menu Bar, Widgets & Storage Alerts:
+
+        - The Mac app stays in the menu bar showing free space, the iPhone has home-screen widgets, and both can alert you when storage runs low.
+
+6.  One Purchase, Mac and iPhone:
+
+        - A free tier with monthly limits and a one-time Pro purchase, through the App Store on iPhone or a license key from the website that unlocks any mix of Macs and iPhones.
+
+## Tools
+
+- Swift 6 & SwiftUI 🧡
+- AppKit (Mac) & UIKit (iPhone) 🍎
+- PhotoKit (duplicate and similar photo detection) 🖼️
+- WidgetKit (home-screen widgets) 🧩
+- Swift Charts 📊
+- RevenueCat (in-app purchases) & Sign in with Apple 🔐
+- Cloudflare Workers (license keys, checkout, updates) ☁️
+- Sparkle (Mac auto-updates) & Developer ID notarization ✍️
+- PostHog analytics & Sentry crash reporting 📈
+- Local Notifications 🔔
+- Optimized for macOS and iOS 💻📱
+  <br/>
+
+#
+
+# 5. Kamux PDF (Weasy)
+
+Kamux PDF is a local-first Flutter desktop app for creating, storing and sending business documents as PDFs. Staff pick a template, fill in the customer's details, and the app renders a print-ready A4 PDF on their own computer, saves it into the company's synced Nextcloud folder, and can send formal letters straight to a postal delivery service over SFTP. There is no server: everything renders offline on the machine.
+
+## Templates in, print-ready PDFs out.
+
+<div style="text-align: center">
+  <table>
+    <tr>
+      <td style="text-align: center" colspan="2">
+        <img src="assets/kamux_weasy/kamux_weasy_demo.gif" width="800" />
+        <br/><sub>Combining two letter templates and rendering a live preview (<a href="assets/kamux_weasy/kamux_weasy_demo.mp4">MP4</a>)</sub>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center">
+        <img src="assets/kamux_weasy/weasy_new_document.png" width="400" />
+        <br/><sub>New document with a DIN 5008 letter preview</sub>
+      </td>
+      <td style="text-align: center">
+        <img src="assets/kamux_weasy/weasy_templates.png" width="400" />
+        <br/><sub>Template library with detected mail-merge variables</sub>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center">
+        <img src="assets/kamux_weasy/weasy_invoice_pdf.png" width="400" />
+        <br/><sub>Invoice rendered with WeasyPrint</sub>
+      </td>
+      <td style="text-align: center">
+        <img src="assets/kamux_weasy/weasy_report_pdf.png" width="400" />
+        <br/><sub>Report with a JavaScript chart rendered with Chromium</sub>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<sub>The sample PDFs use placeholder data.</sub>
+
+## Key Features
+
+1.  Three Rendering Engines, Picked Automatically:
+
+        - Static HTML and print CSS (invoices, reports) render with WeasyPrint, templates with JavaScript, charts or CSS grid render in Chromium through Playwright, and formal postal letters render from LaTeX with Tectonic. A job can also force one engine or allow a fallback.
+
+2.  Flutter + Python Companion Architecture:
+
+        - The Flutter desktop app talks to a bundled local Python engine through JSON job files, so the UI and the renderers stay separate processes and each operating system ships its own native engine.
+
+3.  Document Workflow:
+
+        - Documents move through Drafts, PDF ready and Sent, with search, a template library, a document editor, customer folders and a protocol log of everything generated.
+
+4.  Nextcloud Storage & Postal Delivery:
+
+        - Finished PDFs are written atomically into the locally synced Nextcloud folder of each customer, and letters can be submitted to a postal mailing service over SFTP.
+
+5.  Print-Ready Output:
+
+        - Every PDF is checked to be A4, with optional company letterhead (business paper) layered onto the first page or every page.
+
+6.  Mail Merge for Many Recipients:
+
+        - Pick one or more templates, drag them into order, choose recipients from a customer's recipient list, and the app fills each template's variables (salutation, name, street, postcode, city) to build one combined, DIN 5008-ready PDF per recipient. The UI is available in English and German.
+
+7.  Private by Design:
+
+        - No hosted server, open port, cloud database or Docker runtime. Job history lives in a local SQLite database outside the synced folder, and credentials are kept in secure storage.
+
+## Tools
+
+- Flutter/Dart (macOS, Windows, Linux desktop) 💙
+- Riverpod for State Management 🚀
+- Python companion engine (packaged with PyInstaller) 🐍
+- WeasyPrint (HTML/CSS to PDF) 📄
+- Chromium via Playwright (JavaScript & charts) 🌐
+- LaTeX with Tectonic (postal letters) ✉️
+- Nextcloud sync folder & SFTP delivery ☁️
+- SQLite job history 🗂️
+- Hive, Shared Preferences & Flutter Secure Storage 💾
+- Optimized for macOS, Windows and Linux 💻
+  <br/>
+
+#
+
+# 6. ArewaCare <a href='https://play.google.com/store/apps/details?id=com.arewa.arewa_pregnancy_app'><img alt='Download on the Play Store' src='./assets/google_play.png' height='23px' align="center"/></a> <a href='https://apps.apple.com/ar/app/arewacare/id6745699860'><img alt='Download on the App Store' src='./assets/app_store.png' height='23px' align="center"/></a>
 
 AREWA Care helps women who are pregnant, trying to conceive, or seeking reliable pregnancy knowledge. Track symptoms and cycles, document how you feel, and stay informed with trusted insights in your preferred language
 
@@ -83,7 +491,7 @@ https://github.com/user-attachments/assets/92b52b57-9efb-4156-8da4-a80e79704df5
 
 #
 
-# 2. Verido <a href='https://play.google.com/store/apps/details?id=app.verido.app'><img alt='Download on the Play Store' src='./assets/google_play.png' height='23px' align="center"/></a> <a href='https://apps.apple.com/ar/app/verido/id1598637042'><img alt='Download on the App Store' src='./assets/app_store.png' height='23px' align="center"/></a>
+# 7. Verido <a href='https://play.google.com/store/apps/details?id=app.verido.app'><img alt='Download on the Play Store' src='./assets/google_play.png' height='23px' align="center"/></a> <a href='https://apps.apple.com/ar/app/verido/id1598637042'><img alt='Download on the App Store' src='./assets/app_store.png' height='23px' align="center"/></a>
 
 Verido is a smart pricing and inventory management tool that automatically calculates profitable selling prices, tracks complete product costs to prevent losses, monitors discounts to protect profit margins, and identifies best-selling items to help businesses focus on their most profitable products and services.
 
@@ -155,7 +563,7 @@ https://github.com/user-attachments/assets/28947147-2df7-4c7a-90ee-4b716554ff53
 
 #
 
-# 3. Soloride
+# 8. Soloride
 
 <!-- <a href='https://play.google.com/store/apps/details?id=com.capturedHeart.eyeDr'><img alt='Download on the Play Store' src='./assets/google_play.png' height='23px' align="center"/></a> -->
 
@@ -236,7 +644,7 @@ https://github.com/user-attachments/assets/903c83b2-7155-464c-bdf7-7db3bbc19280
 
 #
 
-# 4. GovDrive <a href='https://play.google.com/store/apps/details?id=ng.com.galaxybackbone.drive'><img alt='Download on the Play Store' src='./assets/google_play.png' height='23px' align="center"/></a>
+# 9. GovDrive <a href='https://play.google.com/store/apps/details?id=ng.com.galaxybackbone.drive'><img alt='Download on the Play Store' src='./assets/google_play.png' height='23px' align="center"/></a>
 
 GovDrive is a secure and user-friendly document management solution designed for government ministries, departments, and agencies. It streamlines the storage, tracking, sharing, and collaboration of official documents, improving efficiency and productivity across public sector operations.
 
@@ -296,7 +704,7 @@ https://github.com/user-attachments/assets/f7d5ef43-9d92-447d-9ee1-a3fa5d1aca97
 
 #
 
-# 5. Eye-Dr <a href='https://play.google.com/store/apps/details?id=com.capturedHeart.eyeDr'><img alt='Download on the Play Store' src='./assets/google_play.png' height='23px' align="center"/></a>
+# 10. Eye-Dr <a href='https://play.google.com/store/apps/details?id=com.capturedHeart.eyeDr'><img alt='Download on the Play Store' src='./assets/google_play.png' height='23px' align="center"/></a>
 
 EYE-DR is a groundbreaking mobile application designed to enhance the screening and management of diabetic retinopathy (DR). Tailored for healthcare professionals and individuals with diabetes, EYE-DR leverages advanced technology to provide a seamless, efficient, and accurate solution for retinal imaging and DR detection.
 
@@ -366,7 +774,7 @@ https://github.com/user-attachments/assets/ffbe90d8-951f-40c9-a622-776e3f658a7b
 
 #
 
-# 6. AssetWize <a href='https://play.google.com/store/apps/details?id=com.assetwize.app'><img alt='Download on the Play Store' src='./assets/google_play.png' height='23px' align="center"/></a> <a href='https://apps.apple.com/us/app/assetwize/id6740449088'><img alt='Download on the App Store' src='./assets/app_store.png' height='23px' align="center"/></a>
+# 11. AssetWize <a href='https://play.google.com/store/apps/details?id=com.assetwize.app'><img alt='Download on the Play Store' src='./assets/google_play.png' height='23px' align="center"/></a> <a href='https://apps.apple.com/us/app/assetwize/id6740449088'><img alt='Download on the App Store' src='./assets/app_store.png' height='23px' align="center"/></a>
 
 This secure file management app focuses on protecting sensitive user information, such as insurance documents, land titles, jewelry receipts, and other valuable assets, by encrypting and storing them securely on the user's phone. Additionally, the app offers an optional backup feature to sync the files with the user’s cloud or drive for extra security and accessibility.
 
@@ -432,7 +840,7 @@ https://github.com/user-attachments/assets/44548d57-05be-4267-b905-693c2e276b72
 
 #
 
-# 7. Kochure <a href='https://play.google.com/store/apps/details?id=com.kochure.kochureApp'><img alt='Download on the Play Store' src='./assets/google_play.png' height='23px' align="center"/></a> <a href='https://apps.apple.com/us/app/kochure-buy-and-sell-crypto/id1595574962'><img alt='Download on the App Store' src='./assets/app_store.png' height='23px' align="center"/></a>
+# 12. Kochure <a href='https://play.google.com/store/apps/details?id=com.kochure.kochureApp'><img alt='Download on the Play Store' src='./assets/google_play.png' height='23px' align="center"/></a> <a href='https://apps.apple.com/us/app/kochure-buy-and-sell-crypto/id1595574962'><img alt='Download on the App Store' src='./assets/app_store.png' height='23px' align="center"/></a>
 
 Easily convert your cryptocurrencies to cash in Nigeria at the lowest fees. Pay the lowest transaction fee of 1.99% on every transaction and begin your crypto journey with as little as N500.
 
@@ -502,7 +910,7 @@ https://github.com/user-attachments/assets/e85cf921-20df-4fb3-98a3-9e96f8987566
 
 #
 
-# 8. Connect-Me <a href='https://apps.apple.com/ng/app/connect-me-digital-identity/id6478838388'><img alt='Download on the App Store' src='./assets/app_store.png' height='23px'/></a> <a href='https://play.google.com/store/apps/details?id=com.capturedHeart.connectMe'><img alt='Get it on Google Play' src='./assets/google_play.png' height='23px'/></a>
+# 13. Connect-Me <a href='https://apps.apple.com/ng/app/connect-me-digital-identity/id6478838388'><img alt='Download on the App Store' src='./assets/app_store.png' height='23px'/></a> <a href='https://play.google.com/store/apps/details?id=com.capturedHeart.connectMe'><img alt='Get it on Google Play' src='./assets/google_play.png' height='23px'/></a>
 
 <strong> Connect_Me is a user-friendly mobile application that empowers users to streamline their communication, networking, and information-sharing processes with the power of QR codes. Whether you're a professional seeking to exchange business details, a social media enthusiast connecting with new friends, or a tech-savvy individual looking for a convenient way to share information, Connect_Me is the ultimate solution for all your QR code needs. </strong>
 
@@ -584,7 +992,7 @@ https://github.com/Captured-Heart/connect_me/assets/69226443/63c2abe0-4c5f-4151-
 
 #
 
-# 9. Hometown <a href='https://play.google.com/store/apps/details?id=com.hometown.app'><img alt='Download hometown on the Play Store' src='./assets/google_play.png' height='23px' align="center"/></a> <a href='https://apps.apple.com/ng/app/hometown-banking-solution/id1525335534'><img alt='Download hometown on the App Store' src='./assets/app_store.png' height='23px' align="center"/></a>
+# 14. Hometown <a href='https://play.google.com/store/apps/details?id=com.hometown.app'><img alt='Download hometown on the Play Store' src='./assets/google_play.png' height='23px' align="center"/></a> <a href='https://apps.apple.com/ng/app/hometown-banking-solution/id1525335534'><img alt='Download hometown on the App Store' src='./assets/app_store.png' height='23px' align="center"/></a>
 
 Hometown is not just an app; it's your passport to financial bliss. Embrace banking freedom. Manage your finances from the comfort of your home, office, or while you're on the move - 24/7 accessibility guaranteed.
 
